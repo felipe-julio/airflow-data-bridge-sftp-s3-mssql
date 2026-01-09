@@ -1,0 +1,10 @@
+version: '3'
+services:
+  sftp:
+    image: atmoz/sftp
+    container_name: sftp_local
+    ports:
+      - "2222:22"
+    volumes:
+      - ./meus_dados:/home/user/upload
+    command: user:pass:1001

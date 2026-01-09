@@ -1,0 +1,5 @@
+id,nome,data_registro,valor,status
+1,Cliente A,2023-10-01,1500.50,ATIVO
+2,Cliente B,2023-10-02,2300.00,INATIVO
+3,Cliente C,2023-10-03,450.75,ATIVO
+4,Cliente D,2023-10-04,980.20,PROCESSANDO
